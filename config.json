@@ -1,0 +1,45 @@
+{
+    "language": "vi",
+    "keyActive": "",
+    "DeveloperMode": true,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "autoClean": false,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "USERID1",
+        "USERID2"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "fbstate.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36"
+    },
+    "version": "1.2.14",
+    "checktt": {
+        "maxColumn": 10
+    },
+    "help": {
+        "autoUnsend": true,
+        "delayUnsend": 30
+    },
+    "rankup": {
+        "autoUnsend": true,
+        "unsendMessageAfter": 10
+    }
+}
